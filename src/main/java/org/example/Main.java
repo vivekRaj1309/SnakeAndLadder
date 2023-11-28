@@ -1,11 +1,8 @@
 package org.example;
-
 import org.example.models.Game;
-import org.example.models.SpecialEntity;
 import org.example.service.GamePlay;
 import org.example.service.GamePlayImplementation;
 
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {

@@ -21,8 +21,8 @@ public class GamePlayImplementation implements GamePlay{
             System.out.println();
             System.out.println(currPlayer.getUser().getName() + "'s turn");
             System.out.println("Press any key and press enter to roll the dice");
-//            Scanner sc = new Scanner(System.in);
-//            sc.next();
+            Scanner sc = new Scanner(System.in);
+            sc.next();
             move(currPlayer);
             game.setLastPlayerMoved(currPlayer);
         }
